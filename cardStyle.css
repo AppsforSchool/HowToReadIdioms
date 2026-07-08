@@ -47,9 +47,6 @@ body {
 }
 #app-header #title-area #header-title {
   font-weight: 700;
-  font-size: 1rem;
-}
-#app-header #title-area #header-title span {
   font-size: 1.2rem;
 }
 #app-header #user-area #header-username {
