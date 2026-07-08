@@ -112,8 +112,6 @@ document.addEventListener('DOMContentLoaded', () => {
     startButton.disabled = true;
     startButton.textContent = "処理中...";
     const params = new URLSearchParams();
-    params.append("question", contentSelectionState[0]);
-    params.append("answer", contentSelectionState[1]);
     detailSelectionState.forEach((g) => {
       params.append("detail", g);
     });
