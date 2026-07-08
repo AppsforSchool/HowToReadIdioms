@@ -173,12 +173,12 @@ function shuffle(array) {
 }
 
 function updateQuestion(index) {
-  cardFrontContent.textContent = questionsData[index][questionParm];
-  cardFrontSubContent.textContent = `${contentsInJp[contents.indexOf(questionParm)]}を${contentsInJp[contents.indexOf(answerParm)]}に直す`;
+  cardFrontContent.textContent = questionsData[index]["idiom"];
+  // cardFrontSubContent.textContent = `${contentsInJp[contents.indexOf(questionParm)]}を${contentsInJp[contents.indexOf(answerParm)]}に直す`;
   
   setTimeout(() => {
-    cardBackQuestion.textContent = `${questionsData[index][questionParm]}を${contentsInJp[contents.indexOf(answerParm)]}に直すと`;
-    cardBackContent.textContent = questionsData[index][answerParm];
+    // cardBackQuestion.textContent = `${questionsData[index][questionParm]}を${contentsInJp[contents.indexOf(answerParm)]}に直すと`;
+    cardBackContent.textContent = questionsData[index]["read"];
   }, 400);
   
   nowCountArea.textContent = index + 1;
