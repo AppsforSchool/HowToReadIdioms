@@ -244,7 +244,7 @@ document.addEventListener('DOMContentLoaded', () => {
     
     if (nowQuestionIndex + 1 === questionsData.length) {
       cardFrontContent.textContent = '終了！';
-      cardFrontSubContent.textContent = '';
+      // cardFrontSubContent.textContent = '';
       showAnswerBtn.classList.add('hidden');
       toIndexBtn.classList.remove('hidden');
     } else {
