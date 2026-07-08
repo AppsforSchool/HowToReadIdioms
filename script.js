@@ -15,7 +15,6 @@ document.addEventListener('DOMContentLoaded', () => {
   });
 });
 
-
 // mode buttons
 let modeButtons, modeMessage;
 document.addEventListener('DOMContentLoaded', () => {
