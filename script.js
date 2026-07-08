@@ -98,9 +98,9 @@ document.addEventListener('DOMContentLoaded', () => {
 // start button
 let startButton;
 function checkStartButtonState() {
-  const contentOK = contentSelectionState[0] !== contentSelectionState[1];
+  // const contentOK = contentSelectionState[0] !== contentSelectionState[1];
   const detailOK = detailSelectionState.size > 0;
-  if (contentOK && detailOK) {
+  if (detailOK) {
     startButton.disabled = false;
   } else {
     startButton.disabled = true;
