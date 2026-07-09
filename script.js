@@ -54,7 +54,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
 // detail buttons
 let detailSelectionState = new Set(["on_on", "kun_kun", "on_kun", "kun_on", "jukujikun", "multi"]);
-let allQuestionCount = 156;
+let allQuestionCount = 170;
 let detailButtons, allQuestion;
 document.addEventListener('DOMContentLoaded', () => {
   detailButtons = document.querySelectorAll('.detail-button');
