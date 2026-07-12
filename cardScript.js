@@ -177,7 +177,7 @@ function updateQuestion(index) {
   // cardFrontSubContent.textContent = `${contentsInJp[contents.indexOf(questionParm)]}を${contentsInJp[contents.indexOf(answerParm)]}に直す`;
   
   setTimeout(() => {
-    // cardBackQuestion.textContent = `${questionsData[index][questionParm]}を${contentsInJp[contents.indexOf(answerParm)]}に直すと`;
+    cardBackQuestion.textContent = questionsData[index]["idiom"];
     cardBackContent.textContent = questionsData[index]["read"];
   }, 400);
   
